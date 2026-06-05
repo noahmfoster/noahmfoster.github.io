@@ -2,3 +2,39 @@ baseURL = 'https://noahfoster.me/'
 locale = 'en-us'
 title = 'Noah Foster'
 theme = ["github.com/adityatelange/hugo-PaperMod"]
+
+[params]
+  author = "Noah Foster"
+  description = "Graduate student in Statistics at Columbia University"
+  defaultTheme = "auto"
+  ShowShareButtons = false
+  ShowReadingTime = false
+  ShowBreadCrumbs = false
+
+[params.profileMode]
+  enabled = true
+  title = "Noah Foster"
+  subtitle = "M.A. Statistics @ Columbia · ML, NLP & Statistics Research"
+  imageUrl = "/img/avatar.jpg"
+  imageAlt = "Noah Foster"
+
+  [[params.profileMode.buttons]]
+    name = "Adventures"
+    url = "/adventures/"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/noahmfoster"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/noah-foster-92b156133"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:n.foster@columbia.edu"
+
+[[menus.main]]
+  name = "Adventures"
+  url = "/adventures/"
+  weight = 10

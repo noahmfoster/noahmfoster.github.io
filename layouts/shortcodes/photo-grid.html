@@ -1,0 +1,15 @@
+{{- $section := .Get "section" -}}
+{{- $images := resources.Match (printf "adventures/%s/*" $section) -}}
+<div class="photo-grid">
+  {{- if $images -}}
+    {{- range $images -}}
+      <figure class="photo-item">
+        <img src="{{ .RelPermalink }}" alt="{{ $section }} photo" loading="lazy" />
+      </figure>
+    {{- end -}}
+  {{- else -}}
+    <p class="photo-placeholder">
+      Photos coming soon — add images to <code>assets/adventures/{{ $section }}/</code> to populate this gallery.
+    </p>
+  {{- end -}}
+</div>
