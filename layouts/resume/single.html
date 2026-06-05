@@ -2,6 +2,9 @@
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Resume</h1>
+    {{- with os.Stat "static/resume.pdf" }}
+    <p class="resume-updated">Last updated {{ .ModTime.Format "January 2, 2006" }}</p>
+    {{- end }}
   </header>
   <div class="resume-actions">
     <a href="/resume.pdf" download="Noah_Foster_Resume.pdf" class="resume-download">Download PDF</a>
