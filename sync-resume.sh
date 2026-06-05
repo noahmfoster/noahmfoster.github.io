@@ -10,5 +10,5 @@ if [[ ! -f "$RESUME_SRC" ]]; then
   exit 1
 fi
 
-cp "$RESUME_SRC" "$RESUME_DEST"
+cp -p "$RESUME_SRC" "$RESUME_DEST"
 echo "sync-resume: copied resume.pdf → static/resume.pdf"
