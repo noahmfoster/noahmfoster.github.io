@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://noahfoster.me/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Noah Foster'
 theme = ["github.com/adityatelange/hugo-PaperMod"]
