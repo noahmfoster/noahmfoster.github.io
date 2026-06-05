@@ -1,25 +1,24 @@
 ---
 title: "Adventures"
-layout: "adventures"
 url: "/adventures/"
 ---
 
-When I'm not doing research, I spend time outside. Here's a glimpse into a few of the things I love most.
+When I'm not doing research, I spend time outside.
 
 ---
 
 ## Skiing
 
-{{< photo-grid section="skiing" >}}
+{{< photo src="/adventures/skiing/example.jpg" caption="Your caption here" >}}
 
 ---
 
 ## Backpacking
 
-{{< photo-grid section="backpacking" >}}
+{{< photo src="/adventures/backpacking/example.jpg" caption="Your caption here" >}}
 
 ---
 
 ## Cycling
 
-{{< photo-grid section="cycling" >}}
+{{< photo src="/adventures/cycling/example.jpg" caption="Your caption here" >}}

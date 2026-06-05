@@ -1,0 +1,8 @@
+{{- $src := .Get "src" -}}
+{{- $caption := .Get "caption" -}}
+<figure class="feed-photo">
+  <img src="{{ $src }}" alt="{{ $caption }}" loading="lazy" />
+  {{- with $caption }}
+  <figcaption>{{ . }}</figcaption>
+  {{- end }}
+</figure>
