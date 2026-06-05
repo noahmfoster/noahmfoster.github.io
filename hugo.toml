@@ -38,3 +38,8 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
   name = "Adventures"
   url = "/adventures/"
   weight = 10
+
+[[menus.main]]
+  name = "Resume"
+  url = "/resume/"
+  weight = 20
